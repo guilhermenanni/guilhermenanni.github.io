@@ -45,7 +45,7 @@
     }
 
     .whoami{
-        border: 1px solid #c8c8c8;
+        border: 2px solid #c8c8c8;
         padding: 10px;
         margin-bottom: 20px
     }
@@ -68,7 +68,7 @@
         text-decoration: none;
         margin-bottom: 8px;
         font-size: 14px;
-        border: 1px solid #c8c8c8;
+        border: 2px solid #c8c8c8;
         padding: 6px 12px;
         transition: background-color 0.2s ease, color 0.2s ease;
     }
@@ -89,7 +89,7 @@
     }
 
     .project {
-        border: 1px solid #ccc;
+        border: 2px solid #ccc;
         padding: 16px;
         margin-bottom: 20px;
         background: solid;
@@ -105,7 +105,7 @@
         text-decoration: none;
         margin-bottom: 8px;
         font-size: 12px;
-        border: 1px solid #c8c8c8;
+        border: 2px solid #c8c8c8;
         padding: 6px 12px;
         transition: background-color 0.2s ease, color 0.2s ease;
     }
@@ -124,7 +124,7 @@
 
     .btn {
         text-decoration: none;
-        border: 1px solid #c8c8c8;
+        border: 2px solid #c8c8c8;
         padding: 4px 8px;
         color: #ffffff;
         transition: background-color 0.2s ease, color 0.2s ease;
@@ -180,6 +180,6 @@
         }
 
         .project .stack {
-            font-size: 11px;
+            font-size: 12px;
         }
     }
