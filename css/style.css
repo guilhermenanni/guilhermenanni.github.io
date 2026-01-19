@@ -34,17 +34,18 @@
         align-items: center;
     }
 
-    .linuxpower {
+    .avatar {
         width: 60%;
         height: auto;
-    }
+        margin-bottom: 20px;
+        border: 2px solid #c8c8c8;    }
 
     .role {
         color: #aaa;
         margin-bottom: 12px;
     }
 
-    .whoami{
+    .whoami {
         border: 2px solid #c8c8c8;
         padding: 10px;
         margin-bottom: 20px
