@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="image-container">
+                <img src="assets/linuxpower.gif" class="linuxpower">
+            </div>
+            <h1>Guilherme Nanni</h1>
+            <p class="role">Web & Server Setup • Linux • IT Infrastructure</p>
+
+            <div class="bio">
+                <p class="bio-text">Web developer with a focus on PHP backend and Linux environments.</p>
+                <p class="bio-text">Experience with basic CRUD systems, databases, and deployment.</p>
+            </div>
+
+            <nav class="links">
+                <a class="links" href="https://github.com/guilhermenanni">Github</a>
+                <a class="links" href="https://www.linkedin.com/in/guilherme-nanni-46b3b5316/">Linkedin</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <h2>Projects</h2>
+            <section class="project">
+                <h3>DraftMe</h3>
+                <p>Digital showcase website and mobile app for sports teams.</p>
+                <span class="stack">HTML • CSS • PHP • SQL • JavaScript • React Native</span>
+                <a href="#" class="inks">Code</a>
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    body {
+        background: #111;
+        color: #ffffff;
+    }
+
+    .footer-img {
+        width: 100%;
+        height: 50%
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 450px 1fr;
+        min-height: 100vh;
+
+    }
+
+    .sidebar {
+        background: #0c0c0c;
+        color: #eee;
+        padding: 24px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linuxpower {
+        width: 60%;
+        height: auto;
+    }
+
+    .role {
+        color: #aaa;
+        margin-bottom: 12px;
+    }
+
+    .bio {
+
+        margin-bottom: 20px;
+    }
+
+    .bio-text {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 8px;
+        font-size: 14px;
+        border: 1px solid #c8c8c8;
+        padding: 6px 12px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .links a:hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+
+
+    .content {
+        background: #000000;
+        padding: 32px;
+        background-image: url("assets/back.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .project {
+        border: 1px solid #ccc;
+        padding: 16px;
+        margin-bottom: 20px;
+        background: solid;
+        background-color: rgba(0, 0, 0, 0.7);
+
+    }
+
+    .project a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 8px;
+        font-size: 12px;
+        border: 1px solid #c8c8c8;
+        padding: 6px 12px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .project a:hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+
+    .stack {
+        display: block;
+        font-size: 13px;
+        color: #e8e8e8;
+        margin: 8px 0;
+    }
+
+    .btn {
+        text-decoration: none;
+        border: 1px solid #c8c8c8;
+        padding: 4px 8px;
+        color: #ffffff;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .btn :hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+</style>
