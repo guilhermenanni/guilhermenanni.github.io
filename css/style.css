@@ -1,0 +1,185 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: monospace;
+    }
+
+    body {
+        background: #111;
+        color: #ffffff;
+    }
+
+    .footer-img {
+        width: 100%;
+        height: 50%
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 450px 1fr;
+        min-height: 100vh;
+
+    }
+
+    .sidebar {
+        background: #0c0c0c;
+        color: #eee;
+        padding: 24px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linuxpower {
+        width: 60%;
+        height: auto;
+    }
+
+    .role {
+        color: #aaa;
+        margin-bottom: 12px;
+    }
+
+    .whoami{
+        border: 1px solid #c8c8c8;
+        padding: 10px;
+        margin-bottom: 20px
+    }
+
+    .bio {
+
+        margin-bottom: 20px;
+    }
+
+    .bio-text {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 8px;
+        font-size: 14px;
+        border: 1px solid #c8c8c8;
+        padding: 6px 12px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .links a:hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+
+
+    .content {
+        background: #000000;
+        padding: 32px;
+        background-image: url("../assets/back.gif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .project {
+        border: 1px solid #ccc;
+        padding: 16px;
+        margin-bottom: 20px;
+        background: solid;
+        background-color: rgba(0, 0, 0, 0.7);
+
+    }
+
+    .project a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 8px;
+        font-size: 12px;
+        border: 1px solid #c8c8c8;
+        padding: 6px 12px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .project a:hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+
+    .stack {
+        display: block;
+        font-size: 13px;
+        color: #e8e8e8;
+        margin: 8px 0;
+    }
+
+    .btn {
+        text-decoration: none;
+        border: 1px solid #c8c8c8;
+        padding: 4px 8px;
+        color: #ffffff;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .btn :hover {
+        background-color: rgb(238, 238, 238);
+        color: #000000;
+    }
+
+    @media (max-width: 1024px) {
+        .layout {
+            grid-template-columns: 1fr;
+            /* empilha sidebar + conteúdo */
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .btn,
+        .links a {
+            font-size: 16px;
+            padding: 10px 16px;
+        }
+
+        .project h3 {
+            font-size: 18px;
+        }
+
+        .project p {
+            font-size: 14px;
+        }
+
+        .project .stack {
+            font-size: 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
+
+        .btn,
+        .links a {
+            font-size: 18px;
+            padding: 12px 20px;
+        }
+
+        .project h3 {
+            font-size: 16px;
+        }
+
+        .project p {
+            font-size: 13px;
+        }
+
+        .project .stack {
+            font-size: 11px;
+        }
+    }
